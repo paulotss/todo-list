@@ -1,18 +1,16 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
 }
 
 header {
-  text-align: center;
-}
-
-section {
-  text-align: center;
+  color:blue;
+  padding: 10px;
+  margin: 0;
 }
 
 button {
-  font-size: 20px;
-  margin: 10px;
+  margin: 10px 0px 10px 10px;
 }
 
 #lista-tarefas {
@@ -24,20 +22,10 @@ button {
 
 #lista-tarefas li {
   width: fit-content;
-  margin: auto;
   padding: 10px;
   border-radius: 10px;
   cursor: pointer;
-}
-
-#criar-tarefa {
-  border: none;
-  background-color: green;
-  border-radius: 100%;
-  padding: 5px 11px;
-  font-weight: 900;
-  color: white;
-  cursor: pointer;
+  margin: 0px 10px 0px 10px;
 }
 
 #texto-tarefa {
@@ -46,4 +34,55 @@ button {
 
 .completed {
   text-decoration: line-through;
+}
+
+#controles {
+  width: 60%;
+  float:left;
+}
+
+#controles h2 {
+  margin: 10px;
+  color: blue
+}
+
+#controles input {
+  margin: 0px 0px 0px 10px;
+}
+
+#controles button {
+  background-color: blue;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-weight: 900;
+}
+
+
+#tarefas {
+  width: 40%;
+  float:left;
+  background-color: blue;
+  color: white;
+  border-radius: 0px 30px 30px 0px;
+}
+
+#tarefas h2 {
+  margin: 10px;
+}
+
+#tarefas button {
+  background-color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: blue;
+  width: 50px;
+}
+
+#tarefas p {
+  margin: 10px;
 }
