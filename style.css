@@ -1,0 +1,49 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+section {
+  text-align: center;
+}
+
+button {
+  font-size: 20px;
+  margin: 10px;
+}
+
+#lista-tarefas {
+  list-style: none;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+#lista-tarefas li {
+  width: fit-content;
+  margin: auto;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#criar-tarefa {
+  border: none;
+  background-color: green;
+  border-radius: 100%;
+  padding: 5px 11px;
+  font-weight: 900;
+  color: white;
+  cursor: pointer;
+}
+
+#texto-tarefa {
+  font-size: 20px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
