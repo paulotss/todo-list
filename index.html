@@ -8,21 +8,23 @@
 <body>
   <header>
     <h1>Minha Lista de Tarefas</h1>
-    <p id="funcionamento"><em>Clique duas vezes em um item para marcá-lo como completo</em></p>
   </header>
-  <section>
+  <section id="tarefas">
     <h2>Tarefas</h2>
-    <input type="text" id="texto-tarefa" placeholder="Novo item">
-    <button id="criar-tarefa">+</button>
+    <p id="funcionamento"><em>Clique duas vezes em um item para marcá-lo como completo</em></p>
     <ol id="lista-tarefas"></ol>
-    <div id="contollers">
-      <button id="mover-cima">Cima</button>
-      <button id="mover-baixo">Baixo</button>
+    <div id="mover">
+      <button id="mover-cima">▲</button>
+      <button id="mover-baixo">▼</button>
     </div>
-    <hr>
-    <button id="salvar-tarefas">Salvar tarefas</button>
-    <button id="remover-finalizados">Remover finalizados</button>
-    <button id="apaga-tudo">Apagar tudo</button>
+  </section>
+  <section id="controles">
+    <h2>Adicionar tarefas</h2>
+    <input type="text" id="texto-tarefa" placeholder="Nova tarefa">
+    <button id="criar-tarefa">+</button><br>
+    <button id="salvar-tarefas">Salvar tarefas</button><br>
+    <button id="remover-finalizados">Remover finalizados</button><br>
+    <button id="apaga-tudo">Apagar tudo</button><br>
     <button id="remover-selecionado">Remover seleção</button>
   </section>
 
